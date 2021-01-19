@@ -1,0 +1,61 @@
+.log {
+    background-color: #6236FF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    width: 400px;
+    height: 520px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px 0px;
+    padding: 0 50px;
+}
+
+.logoo {
+    width: 50px;
+    padding:20px 0px;
+}
+
+.bigImage {
+    width: 70%;
+}
+
+h3,p {
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin:20px 0px;
+}
+
+button img {
+    width: 100%;
+}
+
+.footer {
+    margin: 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+    }
+  }
