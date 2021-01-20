@@ -85,6 +85,12 @@ h4 {
         padding-left: 50px;
         font-size: 18px;
     }
+    .shoutout {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
   }
 
   .shoutout {
