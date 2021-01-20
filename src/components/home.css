@@ -46,7 +46,7 @@ h4 {
     line-height: 22px;
 }
 .container {
-    width: 80%;
+    width: 70%;
     margin: 30px auto;
     
 }
@@ -70,7 +70,7 @@ h4 {
     }
     
     .container h3 {
-        padding-left: 50px;
+        padding-left: 20px;
     }
     .grid {
         column-count: 1
@@ -82,7 +82,7 @@ h4 {
         top: 0;
     }
     .sub {
-        padding-left: 50px;
+        padding-left: 20px;
         font-size: 18px;
     }
     .shoutout {
