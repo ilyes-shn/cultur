@@ -18,7 +18,7 @@ const Home = () => {
                 </Link>
             </div>
             <div className='container'>
-                <h3 style={{width: '100%', fontWeight: 'blod'}}><span style={{color: 'grey'}}>{'<'}</span>12th - 17th December 2020<span style={{color: 'grey', paddingLeft: '10px'}}>{'>'}</span></h3>
+                <h3 style={{width: '100%'}}><span style={{color: 'grey', opacity: '0.7'}}>{'<'}</span>12th - 17th December 2020<span style={{color: 'grey', paddingLeft: '10px',opacity: '0.7'}}>{'>'}</span></h3>
                 <br/>
                 <h5 className='sub'>📸️ What did you do at the weekend?</h5>
                 <div className="grid">
