@@ -83,7 +83,11 @@ h4 {
 
     .logo img {
         width: 40px;
-        transform: translateY(8px);
+        transform: translateY(8px) translateX(-9px);
+    }
+
+    .logo h3 {
+        transform: translateX(-20px);
     }
 
     .grid {
