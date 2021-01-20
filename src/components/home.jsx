@@ -18,22 +18,23 @@ const Home = () => {
                 </Link>
             </div>
             <div className='container'>
-                <h3 style={{fontWeight: 'blod'}}><span style={{color: 'grey', paddingRight: '10px'}}>{'<'}</span>12th - 17th December 2020<span style={{color: 'grey', paddingLeft: '10px'}}>{'>'}</span></h3>
+                <h3 style={{width: '100%', fontWeight: 'blod'}}><span style={{color: 'grey', paddingRight: '10px'}}>{'<'}</span>12th - 17th December 2020<span style={{color: 'grey', paddingLeft: '10px'}}>{'>'}</span></h3>
                 <br/>
-                <h5>📸️ What did you do at the weekend?</h5>
+                <h5 className='sub'>📸️ What did you do at the weekend?</h5>
                 <div className="grid">
                     {
                         data.map(prof => <Card index={prof.index} key={Math.random()} big={prof.big} avImg={prof.avatarImage} avTitle={prof.avatarTitle} disc={prof.disc}/>)
                     }
                     
                 </div>
-                <h3 style={{marginBottom: '20px'}}>🙌 Shoutouts</h3>
-                <div style={{columnCount: 3, columnGap: '1px', margin: '0px auto'}}>
-                <Shoutouts />
-                <Shoutouts />
-                <Shoutouts />
+                <h5 className='sub' style={{marginBottom: '20px'}}>🙌 Shoutouts</h5>
+    
+                <div className='shoutout'>
+                    <Shoutouts />
+                    <Shoutouts />
+                    <Shoutouts />
                 </div>
-
+            
             </div>
         </div>
     )

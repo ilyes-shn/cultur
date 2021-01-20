@@ -5,7 +5,6 @@
 .home {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(233, 233, 233);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -41,16 +40,23 @@ h4 {
     color: rgb(109, 109, 109);
 }
 
+.sub {
+    width: 100%;
+    font-size: 24px;
+    line-height: 22px;
+}
 .container {
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
+    
 }
 
 
 .grid {
-    margin: 40px 0px;
-    column-count: 3;
-    grid-gap: 10px;
+    margin: 40px auto;
+    column-count: auto;
+    column-width: 300px;
+    column-gap: 10px;
     height: max-content;
 }
 
@@ -63,6 +69,9 @@ h4 {
         align-items: center;
     }
     
+    .container h3 {
+        padding-left: 50px;
+    }
     .grid {
         column-count: 1
     }
@@ -72,6 +81,16 @@ h4 {
         position: sticky;
         top: 0;
     }
+    .sub {
+        padding-left: 50px;
+        font-size: 18px;
+    }
   }
 
-  
+  .shoutout {
+    width: 100%;
+      column-count: auto;
+      column-width: 300px;
+      column-gap: 10px;
+      padding: 0px 0px;
+  }

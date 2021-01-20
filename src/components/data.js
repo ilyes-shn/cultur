@@ -19,16 +19,16 @@ export const data = [
         disc: "📸 We had a relaxed weekend and I cooked a meal for the family. It turned out pretty well if I do say so myself!"
     },
     {
-        big: "shutterstock_788608396 1.png",
-        avatarImage: "two.png",
-        avatarTitle: "Carl D.",
-        disc: "📸 I kicked it around New York City on my bike. Did a bit of shopping and sipped on my favourite vanilla lattes. I love the hustle and bustle of the city, I never get bored of it. I love a good people watch."
-    },
-    {
         big: "",
         avatarImage: "three.png",
         avatarTitle: "Mathew P.",
         disc: "📸 I climbed up Mt. Hood with my dog and girlfriend. Took about 2 hours but so worth it."
+    },
+    {
+        big: "shutterstock_788608396 1.png",
+        avatarImage: "two.png",
+        avatarTitle: "Carl D.",
+        disc: "📸 I kicked it around New York City on my bike. Did a bit of shopping and sipped on my favourite vanilla lattes. I love the hustle and bustle of the city, I never get bored of it. I love a good people watch."
     },
     {
         big: "picture-of-boy-running-in-the-driveway-by-Cassandra-Casley 1.png",
