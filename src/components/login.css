@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 .log {
     background-color: #6236FF;
     min-height: 100vh;
@@ -28,12 +31,18 @@
 }
 
 .bigImage {
-    width: 70%;
+    width: 80%;
 }
 
-h3,p {
+h2 {
+    font-family: 'Lora', serif;
+    margin-bottom: 10px;
+}
+
+h3,h5 {
     padding-bottom: 10px;
     line-height: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 button {
@@ -48,6 +57,10 @@ button {
 
 button img {
     width: 100%;
+}
+
+button img:hover {
+    box-shadow: 1px 1px 4px rgb(132, 123, 255);
 }
 
 .footer {

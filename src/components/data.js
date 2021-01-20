@@ -11,23 +11,24 @@ export const data = [
         avatarTitle: "Sarah T.",
         disc: "📸 We went for a lovely walk in the woods this weekend. "
     },
-    {
-        big: "",
-        avatarImage: "three.png",
-        avatarTitle: "Mathew P.",
-        disc: "📸 I climbed up Mt. Hood with my dog and girlfriend. Took about 2 hours but so worth it."
-    },
+   
     {
         big: "chorizo-mozarella-gnocchi-bake-cropped-9ab73a3 1.png",
-        avatarImage: "T0PLNAAMT-U0PMV5U3S-bdc18e99b564-512(1).png",
+        avatarImage: "four.png",
         avatarTitle: "Lin S.",
         disc: "📸 We had a relaxed weekend and I cooked a meal for the family. It turned out pretty well if I do say so myself!"
     },
     {
         big: "shutterstock_788608396 1.png",
-        avatarImage: "T0PLNAAMT-U0PLN5NRH-90e1930bdc9d-512 3(1).png",
+        avatarImage: "two.png",
         avatarTitle: "Carl D.",
         disc: "📸 I kicked it around New York City on my bike. Did a bit of shopping and sipped on my favourite vanilla lattes. I love the hustle and bustle of the city, I never get bored of it. I love a good people watch."
+    },
+    {
+        big: "",
+        avatarImage: "three.png",
+        avatarTitle: "Mathew P.",
+        disc: "📸 I climbed up Mt. Hood with my dog and girlfriend. Took about 2 hours but so worth it."
     },
     {
         big: "picture-of-boy-running-in-the-driveway-by-Cassandra-Casley 1.png",

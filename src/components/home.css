@@ -1,11 +1,12 @@
-* {
-    font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
 
 .home {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(233, 233, 233);
+    font-family: 'Nunito', sans-serif;
 }
 
 .Nav {
@@ -22,7 +23,7 @@
 
 .logo {
     display: flex;
-    width: 200px;
+    width: 170px;
     height: 70px;
     align-items: center;
     justify-content: space-between;
@@ -41,31 +42,35 @@ h4 {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 30px auto;
 }
 
+
 .grid {
-    margin-top: 40px;
+    margin: 40px 0px;
     column-count: 3;
     grid-gap: 10px;
+    height: max-content;
 }
 
-@media only screen and (max-width: 1160) {
-    .grid {
-        column-count: 2
-    }
-    .Nav {
-        padding: 0px 15px;
-    }
-  }
   
 @media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .grid {
         column-count: 1
     }
     .Nav {
-        padding: 0px 8px;
+        padding: 0px 30px;
+        width: 100%;
+        position: sticky;
+        top: 0;
     }
   }
 

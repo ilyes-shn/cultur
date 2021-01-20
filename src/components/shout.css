@@ -1,0 +1,11 @@
+.shout {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.shout p {
+    padding: 0;
+    margin-top: 10px;
+}

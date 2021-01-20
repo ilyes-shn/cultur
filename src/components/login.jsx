@@ -8,9 +8,9 @@ const Login = () => {
             <div className='card'>
                 <img src="Group 1067.png" alt="logo" className='logoo'/>
                 <h2>Culturebook</h2>
-                <p>Strengthening social connection & building brilliant company cultures 💪</p>
+                <h5>Strengthening social connection & building brilliant company cultures 💪</h5>
                 <img src="Big Shoes Discussion2 1.png" alt="bigImage" className='bigImage'/>
-                <p>Sign to see your <span style={{fontWeight: "bold"}}>Weekly Digest</span></p>
+                <h5>Sign to see your <span style={{fontWeight: "bold"}}>Weekly Digest</span></h5>
                 <Link to='/feed'>
                 <button>
                     <img src="sign_in_with_slack@2x 1.png" alt="slack"/>
