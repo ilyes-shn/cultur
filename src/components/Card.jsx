@@ -19,7 +19,11 @@ const Card = ({big, avImg, avTitle, disc, index}) => {
                 open && (
                 <div className='modal'>
                     <h3 onClick={() => setOpen(false)}>X</h3>
-                    <Modal big={big} avImg={avImg} avTitle={avTitle} disc={disc}/>
+                    <div className='arrow' style={{display: 'flex', alignItems: 'center'}}>
+                    <h2 style={{padding: '25px', color: 'white'}}>{'<'}</h2>
+                        <Modal big={big} avImg={avImg} avTitle={avTitle} disc={disc}/>
+                    <h2 style={{padding: '25px', color: 'white'}}>{'>'}</h2>
+                    </div>
                 </div>
                 )
             }

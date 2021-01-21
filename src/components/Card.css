@@ -59,4 +59,9 @@ p {
     .modal h3 {
         transform: translateX(120px);
     }
+
+    .modal h2 {
+        opacity: 0;
+    }
+
   }

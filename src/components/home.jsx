@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import './home.css'
 import { data } from './data'
+import { dataOne } from './dataOne'
 import { Link } from 'react-router-dom'
 import Shoutouts from './Shoutouts'
 
@@ -34,7 +35,13 @@ const Home = () => {
                     <Shoutouts />
                     <Shoutouts />
                 </div>
-            
+                <h5 className='sub' style={{marginBottom: '10px'}}>🔍 What's the best book you've read this year?</h5>
+                <div className="grid">
+                    {
+                        dataOne.map(prof => <Card index={prof.index} key={Math.random()} big='' avImg={prof.avatarImage} avTitle={prof.avatarTitle} disc={prof.disc}/>)
+                    }
+                    
+                </div>
             </div>
         </div>
     )
